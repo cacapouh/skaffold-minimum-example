@@ -1,0 +1,12 @@
+apiVersion: skaffold/v4beta8
+kind: Config
+metadata:
+  name: skaffold-example
+build:
+  artifacts:
+    - image: python-app
+      docker:
+        dockerfile: Dockerfile
+manifests:
+  rawYaml:
+    - deploy.yml
