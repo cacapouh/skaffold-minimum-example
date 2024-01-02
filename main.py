@@ -5,7 +5,7 @@ def main():
     count = 0
     while True:
         count += 1
-        print("{} Hello World".format(count))
+        print("{} Hello Skaffold".format(count))
         time.sleep(1)
 
 
